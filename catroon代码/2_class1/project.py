@@ -69,9 +69,9 @@ class class1 (Scene):
         self.play(
             FadeOut(self.chaper1_select1_numbers),
             self.chaper1_select1_squares.animate.set_fill(color=M_BLUE, opacity=0.5)
-        ).self.wait(2)
+        ),self.wait(2)
 
-        self.play(Write(self.chaper1_select12_text)),self.wait(1)
+        self.play(Write(self.chaper1_select2_text)),self.wait(1)
         self.play(
             self.chaper1_select2_squares.animate.set_fill(color=M_YELLOW, opacity=0.8),
             self.chaper1_select2_numbers.animate.set_color(WHITE)
@@ -79,9 +79,10 @@ class class1 (Scene):
         self.play(
             FadeOut(self.chaper1_select2_numbers),
             self.chaper1_select2_squares.animate.set_fill(color=M_BLUE, opacity=0.5)
-        ).self.wait(2)
+        ),self.wait(2)
 
-        self.play(Write(self.chaper1_select13_text)), self.wait(1)
+        self.play(Write(self.chaper1_select3_text)), self.wait(1)
+
         self.play(
             self.chaper1_select3_squares.animate.set_fill(color=M_YELLOW, opacity=0.8),
             self.chaper1_select3_numbers.animate.set_color(WHITE)
@@ -89,9 +90,9 @@ class class1 (Scene):
         self.play(
             FadeOut(self.chaper1_select3_numbers),
             self.chaper1_select3_squares.animate.set_fill(color=M_BLUE, opacity=0.5)
-        ).self.wait(2)
+        ),self.wait(2)
 
-        self.play(Write(self.chaper1_select14_text)), self.wait(1)
+        self.play(Write(self.chaper1_select4_text)), self.wait(1)
         self.play(
             self.chaper1_select4_squares.animate.set_fill(color=M_YELLOW, opacity=0.8),
             self.chaper1_select4_numbers.animate.set_color(WHITE)
@@ -99,7 +100,7 @@ class class1 (Scene):
         self.play(
             FadeOut(self.chaper1_select4_numbers),
             self.chaper1_select4_squares.animate.set_fill(color=M_BLUE, opacity=0.5)
-        ).self.wait(2)
+        ),self.wait(2)
 
 
 
