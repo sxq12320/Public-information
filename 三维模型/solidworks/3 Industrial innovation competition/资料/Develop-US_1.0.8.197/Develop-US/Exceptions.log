@@ -1,0 +1,116 @@
+2023/4/1 23:00:32
+
+Unsafe ShowError
+
+System.ArgumentException: 在某个线程上创建的控件不能成为在另一个线程上创建的控件的父级。
+   在 System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   在 System.Windows.Forms.WindowsFormsUtils.ReadOnlyControlCollection.AddInternal(Control value)
+   在 System.Windows.Forms.ToolStripControlHost.SyncControlParent()
+   在 System.Windows.Forms.ToolStripControlHost.OnParentChanged(ToolStrip oldParent, ToolStrip newParent)
+   在 System.Windows.Forms.ToolStripItem.set_ParentInternal(ToolStrip value)
+   在 System.Windows.Forms.ToolStripSplitStackLayout.LayoutHorizontal()
+   在 System.Windows.Forms.ToolStripSplitStackLayout.LayoutCore(IArrangedElement container, LayoutEventArgs layoutEventArgs)
+   在 System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   在 System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   在 System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   在 System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   在 System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   在 System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   在 System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   在 System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ToolStripControlHost.HandleTextChanged(Object sender, EventArgs e)
+   在 System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ComboBox.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   在 System.Windows.Forms.ToolStripComboBox.set_SelectedIndex(Int32 value)
+   在 Fashionstar.Chart.ChartView.SetDeviceList(String[] list)
+   在 FashionStar.Chart.PluginMain.HandleEvent(Object sender, NotifyEvent e, HandlingPriority priority)
+   在 PluginCore.Managers.EventManager.DispatchEvent(Object sender, NotifyEvent e)
+
+2023/4/1 23:29:40
+
+Unsafe ShowError
+
+System.ArgumentException: 在某个线程上创建的控件不能成为在另一个线程上创建的控件的父级。
+   在 System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   在 System.Windows.Forms.WindowsFormsUtils.ReadOnlyControlCollection.AddInternal(Control value)
+   在 System.Windows.Forms.ToolStripControlHost.SyncControlParent()
+   在 System.Windows.Forms.ToolStripControlHost.OnParentChanged(ToolStrip oldParent, ToolStrip newParent)
+   在 System.Windows.Forms.ToolStripItem.set_ParentInternal(ToolStrip value)
+   在 System.Windows.Forms.ToolStripSplitStackLayout.LayoutHorizontal()
+   在 System.Windows.Forms.ToolStripSplitStackLayout.LayoutCore(IArrangedElement container, LayoutEventArgs layoutEventArgs)
+   在 System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   在 System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   在 System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   在 System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   在 System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   在 System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   在 System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   在 System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ToolStripControlHost.HandleTextChanged(Object sender, EventArgs e)
+   在 System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ComboBox.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   在 System.Windows.Forms.ToolStripComboBox.set_SelectedIndex(Int32 value)
+   在 Fashionstar.Chart.ChartView.SetDeviceList(String[] list)
+   在 FashionStar.Chart.PluginMain.HandleEvent(Object sender, NotifyEvent e, HandlingPriority priority)
+   在 PluginCore.Managers.EventManager.DispatchEvent(Object sender, NotifyEvent e)
+
+2023/4/5 20:21:26
+
+Unsafe ShowError
+
+System.ArgumentException: 在某个线程上创建的控件不能成为在另一个线程上创建的控件的父级。
+   在 System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   在 System.Windows.Forms.WindowsFormsUtils.ReadOnlyControlCollection.AddInternal(Control value)
+   在 System.Windows.Forms.ToolStripControlHost.SyncControlParent()
+   在 System.Windows.Forms.ToolStripControlHost.OnParentChanged(ToolStrip oldParent, ToolStrip newParent)
+   在 System.Windows.Forms.ToolStripItem.set_ParentInternal(ToolStrip value)
+   在 System.Windows.Forms.ToolStripSplitStackLayout.LayoutHorizontal()
+   在 System.Windows.Forms.ToolStripSplitStackLayout.LayoutCore(IArrangedElement container, LayoutEventArgs layoutEventArgs)
+   在 System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   在 System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   在 System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   在 System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   在 System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   在 System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   在 System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   在 System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ToolStripControlHost.HandleTextChanged(Object sender, EventArgs e)
+   在 System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ComboBox.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   在 System.Windows.Forms.ToolStripComboBox.set_SelectedIndex(Int32 value)
+   在 Fashionstar.Chart.ChartView.SetDeviceList(String[] list)
+   在 FashionStar.Chart.PluginMain.HandleEvent(Object sender, NotifyEvent e, HandlingPriority priority)
+   在 PluginCore.Managers.EventManager.DispatchEvent(Object sender, NotifyEvent e)
+
+2023/4/5 20:52:39
+
+Unsafe ShowError
+
+System.ArgumentException: 在某个线程上创建的控件不能成为在另一个线程上创建的控件的父级。
+   在 System.Windows.Forms.Control.ControlCollection.Add(Control value)
+   在 System.Windows.Forms.WindowsFormsUtils.ReadOnlyControlCollection.AddInternal(Control value)
+   在 System.Windows.Forms.ToolStripControlHost.SyncControlParent()
+   在 System.Windows.Forms.ToolStripControlHost.OnParentChanged(ToolStrip oldParent, ToolStrip newParent)
+   在 System.Windows.Forms.ToolStripItem.set_ParentInternal(ToolStrip value)
+   在 System.Windows.Forms.ToolStripSplitStackLayout.LayoutHorizontal()
+   在 System.Windows.Forms.ToolStripSplitStackLayout.LayoutCore(IArrangedElement container, LayoutEventArgs layoutEventArgs)
+   在 System.Windows.Forms.Layout.LayoutEngine.Layout(Object container, LayoutEventArgs layoutEventArgs)
+   在 System.Windows.Forms.Control.OnLayout(LayoutEventArgs levent)
+   在 System.Windows.Forms.ScrollableControl.OnLayout(LayoutEventArgs levent)
+   在 System.Windows.Forms.ToolStrip.OnLayout(LayoutEventArgs e)
+   在 System.Windows.Forms.Control.PerformLayout(LayoutEventArgs args)
+   在 System.Windows.Forms.Control.System.Windows.Forms.Layout.IArrangedElement.PerformLayout(IArrangedElement affectedElement, String affectedProperty)
+   在 System.Windows.Forms.ToolStripItem.InvalidateItemLayout(String affectedProperty, Boolean invalidatePainting)
+   在 System.Windows.Forms.ToolStripItem.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ToolStripControlHost.HandleTextChanged(Object sender, EventArgs e)
+   在 System.Windows.Forms.Control.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ComboBox.OnTextChanged(EventArgs e)
+   在 System.Windows.Forms.ComboBox.set_SelectedIndex(Int32 value)
+   在 System.Windows.Forms.ToolStripComboBox.set_SelectedIndex(Int32 value)
+   在 Fashionstar.Chart.ChartView.SetDeviceList(String[] list)
+   在 FashionStar.Chart.PluginMain.HandleEvent(Object sender, NotifyEvent e, HandlingPriority priority)
+   在 PluginCore.Managers.EventManager.DispatchEvent(Object sender, NotifyEvent e)
+
